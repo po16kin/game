@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>index</title>
+     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+    <script src="js/jquery-3.4.1.min.js"></script>
+
+    <!-- Include all compiled plugins (below), or include individual files as needed --> 
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap-4.4.1.js"></script>
+  <!-- Bootstrap -->
+    <link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+    <style type="text/css">
+    </style>
+	  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  
+  </head>
+  
+  <body class="body">
+	  <div class=" modal fade"  id="loginpage">
+		 <div class="modal-dialog">
+    <div class="modal-content login-account">
+		 
+		<div class="close">
+			<button type="button" class="close" data-dismiss="modal" ><img src="images/close-btn.png" width="20" height="20" alt=""/></button>
+		  </div>
+	    <div class="login-logo"><img src="images/GFi-Logo-2.png" width="120" height="137" alt=""/></div>
+		  <div class="login-head">選擇註冊/登入方式</div>
+	    <button class="google">          
+			<div class="account-icon"><img src="images/google.png" width="35" height="22" alt=""/></div>
+			使用 Google 帳號登入/註冊</button>
+		 <button class="facebook">
+			<div class="account-icon"><img src="images/facebook.png" width="35" height="22" alt=""/></div>
+			使用 Facebook 帳號登入/註冊</button>
+		  <button class="discord">
+			<div class="account-icon"><img src="images/discord.png" width="35" height="22" alt=""/></div>    
+			使用 Discord 帳號登入/註冊</button>
+		  <button class="apple">
+			<div class="account-icon"><img src="images/apple.png" width="35" height="22" alt=""/></div>
+			使用 Apple ID 帳號登入/註冊</button>
+		
+	    <div class="agree-policy">
+	      <p>當您按下以上任一個登入按鈕<br>
+
+	      表示您同意平台的 <a href="#">使用者條款</a> 和 <a href="#">隱私權政策</a></p>
+	    </div>
+	    </div>
+		 </div>
+	  </div>
+  <nav class="navbar fixed-top navbar-expand-lg navbar-light navbar-bg" > <a class="navbar-brand" href="#"><img src="images/GFi-Logo.png" width="88" height="35" alt=""/></a>  <!--data-aos="fade-down"-->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active"> <a class="nav-link text-light" href="#">遊戲 <span class="sr-only">(current)</span></a> </li>
+        <li class="nav-item"> <a class="nav-link text-light" href="#">交易</a> </li>
+        <li class="nav-item"> <a class="nav-link text-light " href="#">任務</a> </li>
+		 <li class="nav-item"> <a class="nav-link text-light " href="#">關於</a> </li>
+      </ul>
+     
+		
+        <a href="#loginpage">
+	   <button class="btn btn-outline-info my-2 my-sm-0 btn-sm" type="info" data-toggle="modal" data-target="#loginpage">註冊/登入</button>
+	   </a>
+		
+	</div>
+  </nav>  
+	  
+<script>
+    AOS.init({
+		duration:500,
+		offset:1000,
+	});
+  </script>
+  </body>
+</html>

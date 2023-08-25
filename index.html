@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>index</title>
+     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+    <script src="js/jquery-3.4.1.min.js"></script>
+    
+    <!-- Include all compiled plugins (below), or include individual files as needed --> 
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap-4.4.1.js"></script>
+	
+  <!-- Bootstrap -->
+    <link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+	<link rel="stylesheet" href="css/swiper-bundle.min.css" />
+	<link rel="stylesheet" href="css/card-slider.css" />
+    <style type="text/css">
+    a:link {
+    color: #FFFFFF;
+}
+a:hover {
+    color: #FFF249;
+}
+    a:visited {
+    color: #FFFFFF;
+}
+a:active {
+    color: #FFFFFF;
+}
+    </style>
+	  
+  
+  </head>
+  
+<body class="body">
+	<div class="ss"> 
+ <!--<script src="js/nav.js"></script>-->
+<div class=" modal fade"  id="loginpage">
+		 <div class="modal-dialog">
+    <div class="modal-content login-account">
+		 
+		<div class="close">
+			<button type="button" class="close" data-dismiss="modal" ><img src="images/close-btn.png" width="20" height="20" alt=""/></button>
+		  </div>
+	    <div class="login-logo"><img src="images/GFi-Logo-2.png" width="120" height="137" alt=""/></div>
+		  <div class="login-head">選擇註冊/登入方式</div>
+	    <button class="google">          
+			<div class="account-icon"><img src="images/google.png" width="35" height="22" alt=""/></div>
+			使用 Google 帳號繼續</button>
+		 <button class="facebook">
+			<div class="account-icon"><img src="images/facebook.png" width="35" height="22" alt=""/></div>
+			使用 Facebook 帳號繼續</button>
+		  <button class="discord">
+			<div class="account-icon"><img src="images/discord.png" width="35" height="22" alt=""/></div>    
+			使用 Discord 帳號繼續</button>
+		  <button class="apple">
+			<div class="account-icon"><img src="images/apple.png" width="35" height="22" alt=""/></div>
+			使用 Apple ID 帳號繼續</button>
+		
+	    <div class="agree-policy">
+	      <p>當您按下以上任一個登入按鈕<br>
+
+	      表示您同意平台的 <a href="#">使用者條款</a> 和 <a href="#">隱私權政策</a></p>
+	    </div>
+	    </div>
+		 </div>
+	  </div>
+  <nav class="navbar fixed-top navbar-expand-lg navbar-light navbar-bg" > <a class="navbar-brand" href="#"><img src="images/GFi-Logo.png" width="88" height="35" alt=""/></a>  <!--data-aos="fade-down"-->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active"> <a class="nav-link text-light" href="#">遊戲 <span class="sr-only">(current)</span></a> </li>
+        <li class="nav-item"> <a class="nav-link text-light" href="#">市集</a> </li>
+        <li class="nav-item"> <a class="nav-link text-light " href="#">任務</a> </li>
+		 <li class="nav-item"> <a class="nav-link text-light " href="#">簽到</a> </li>
+		 <li class="nav-item"> <a class="nav-link text-light " href="#">關於</a> </li>
+      </ul>
+     
+		
+        <a href="#loginpage">
+	   <button class="btn btn-outline-warning my-2 my-sm-0 btn-sm" type="warning" data-toggle="modal" data-target="#loginpage">註冊/登入</button>
+	   </a>
+		
+	</div>
+  </nav>  
+<div id="carouselExampleIndicators1" class="carousel slide " data-ride="carousel" style="background-color: dark">
+    <!--<ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators1" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators1" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators1" data-slide-to="2"></li>
+  </ol>-->
+    <div class="carousel-inner" role="listbox">
+	  <div class="carousel-item active">
+	    <div class="video-wrapper">
+          <video muted="muted" autoplay="autoplay" loop="loop" >
+            <source src="video/AdobeStock_507103622_Video_HD_Preview.mov" type="video/mp4">
+          </video>
+			<div class="black-gradient"></div>
+        </div>
+       <div class="carousel-caption">
+	    <div class="icon-game"><img src="images/ICON_01.png" alt=""/></div>
+        <div class="game-name">圖文不符</div>
+		   <div class="game-name-info">遊戲簡介 遊戲簡介 遊戲簡介 遊戲簡介 遊戲簡介 遊戲簡介 遊戲簡介 遊戲簡介 遊戲簡介 遊戲簡介 遊戲簡介</div>
+         <button class="download-btn">立即下載 </button>
+        </div>
+      </div>
+		
+      <div class="carousel-item">
+	    <div  class="video-wrapper">
+		<video preload="none" muted="muted" autoplay="autoplay" loop="loop" >
+            <source src="video/AdobeStock_417981887_Video_HD_Preview.mov" type="video/mp4">
+          </video>
+			<div class="black-gradient"></div>
+	    </div>
+        <div class="carousel-caption">
+			<div class="icon-game"><img src="images/ICON_02.png" alt=""/> </div>
+       <h5 class="game-name">圖文不符</h5>
+		   <div class="game-name-info">遊戲簡介 遊戲簡介 遊戲簡介 遊戲簡介 遊戲簡介 遊戲簡介 遊戲簡介 遊戲簡介 遊戲簡介 遊戲簡介 遊戲簡介</div>
+         <button class="download-btn">立即下載</button>
+        </div>
+      </div>
+		
+      <div class="carousel-item"> 
+		  <div class="video-wrapper">
+		  <video preload="none" muted="muted" autoplay="autoplay" loop="loop" >
+            <source src="video/AdobeStock_370803148_Video_HD_Preview.mov" type="video/mp4">
+			   </video>
+			  <div class="black-gradient"></div>
+        <div class="carousel-caption">
+		  <div class="icon-game"><img src="images/ICON_03.png" alt=""/></div>
+        <h5 class="game-name">圖文不符</h5>
+		   <div class="game-name-info">遊戲簡介 遊戲簡介 遊戲簡介 遊戲簡介 遊戲簡介 遊戲簡介 遊戲簡介 遊戲簡介 遊戲簡介 遊戲簡介 遊戲簡介</div>
+         <button class="download-btn">立即下載</button>
+        </div>
+      </div>
+       </div>
+     
+	 <div class="carousel-item"> 
+		  <div class="video-wrapper">
+		  <video preload="none" muted="muted" autoplay="autoplay" loop="loop" >
+            <source src="video/AdobeStock_630909318_Video_HD_Preview.mov" type="video/mp4">
+			   </video>
+			  <div class="black-gradient"></div>
+        <div class="carousel-caption">
+		  <div class="icon-game"><img src="images/ICON_04.png" alt=""/></div>
+        <h5 class="game-name">圖文不符</h5>
+		   <div class="game-name-info">遊戲簡介 遊戲簡介 遊戲簡介 遊戲簡介 遊戲簡介 遊戲簡介 遊戲簡介 遊戲簡介 遊戲簡介 遊戲簡介 遊戲簡介</div>
+         <button class="download-btn">立即下載</button>
+        </div>
+      </div>
+       </div>	
+		
+    </div>
+     </div>
+	
+    <div class="head-text">熱門遊戲</div>
+	 <div class="container swiper">
+		 <div class="slide-container">
+        <div class="card-wrapper swiper-wrapper">
+          <div class="card swiper-slide">
+            <div class="image-box">
+            <img src="images/APEX_02.jpeg"  alt=""> </div>
+            <div class="profile-details">
+              <div class="name-job">
+                <h3 class="name">David Cardlos</h3>
+              </div>
+            </div>
+          </div>
+			
+			 <div class="card swiper-slide">
+            <div class="image-box">
+              <img src="images/D4_03.jpg" alt="" />
+            </div>
+            <div class="profile-details">
+              
+              <div class="name-job">
+                <h3 class="name">David Cardlos</h3>
+            
+              </div>
+            </div>
+          </div>
+			
+			 <div class="card swiper-slide">
+            <div class="image-box">
+              <img src="images/LoL_04.jpg" alt="" />
+            </div>
+            <div class="profile-details">
+              
+              <div class="name-job">
+                <h3 class="name">David Cardlos</h3>
+               
+              </div>
+            </div>
+          </div>
+			
+			 <div class="card swiper-slide">
+            <div class="image-box">
+              <img src="images/OVER_03.jpg" alt="" />
+            </div>
+            <div class="profile-details">
+              <div class="name-job">
+                <h3 class="name">David Cardlos</h3>
+              </div>
+            </div>
+          </div>
+			
+		  <div class="card swiper-slide">
+            <div class="image-box">
+              <img src="images/爐石_01.jpg" alt="" />
+            </div>
+            <div class="profile-details">
+              <div class="name-job">
+                <h3 class="name">David Cardlos</h3>
+              </div>
+            </div>
+          </div>	
+         
+		 <div class="card swiper-slide">
+            <div class="image-box">
+            <img src="images/APEX_02.jpeg"  alt=""> </div>
+            <div class="profile-details">
+              <div class="name-job">
+                <h3 class="name">David Cardlos</h3>
+              </div>
+            </div>
+          </div>
+			
+			 <div class="card swiper-slide">
+            <div class="image-box">
+              <img src="images/D4_03.jpg" alt="" />
+            </div>
+            <div class="profile-details">
+              
+              <div class="name-job">
+                <h3 class="name">David Cardlos</h3>
+            
+              </div>
+            </div>
+          </div>
+			
+			 <div class="card swiper-slide">
+            <div class="image-box">
+              <img src="images/LoL_04.jpg" alt="" />
+            </div>
+            <div class="profile-details">
+              
+              <div class="name-job">
+                <h3 class="name">David Cardlos</h3>
+               
+              </div>
+            </div>
+          </div>
+			
+			 <div class="card swiper-slide">
+            <div class="image-box">
+              <img src="images/OVER_03.jpg" alt="" />
+            </div>
+            <div class="profile-details">
+              <div class="name-job">
+                <h3 class="name">David Cardlos</h3>
+              </div>
+            </div>
+          </div>
+			
+		  <div class="card swiper-slide">
+            <div class="image-box">
+              <img src="images/爐石_01.jpg" alt="" />
+            </div>
+            <div class="profile-details">
+              <div class="name-job">
+                <h3 class="name">David Cardlos</h3>
+              </div>
+            </div>
+          </div>		
+		
+		<div class="swiper-slide more-animation">
+            <div class="image-box-more">
+              更多遊戲 >>
+            </div>
+          </div>	
+			
+     </div>
+      <div class="swiper-button-next swiper-navBtn"></div>
+      <div class="swiper-button-prev swiper-navBtn"></div>
+      <div class="swiper-pagination"></div>
+      </div>
+	  </div>
+	   <div class="head-text-2">熱門活動</div>
+	 <div class="container-2 swiper ">
+		 <div class="slide-container2">
+        <div class="card-wrapper swiper-wrapper">
+        <div class="card-2 swiper-slide">
+			<div class="on-off">活動進行中</div>
+			<div class="rest-time"><img src="images/clock.png" width="20" height="19" alt=""/>剩餘時間 10天10小時</div>
+            <div class="image-box-2">
+              <img src="images/活動01.jpg" alt="" />
+            </div>
+            <div class="profile-details-2">
+              <div class="name-job">
+                <h3 class="name">David Cardlos</h3>
+				<h3 class="time">現實紅利大放送送送送送送送送送送送送</h3>
+				<h3 class="join-number"><img src="images/man-icon.png"  alt=""/>2000</h3>
+              </div>
+            </div>
+          </div>
+			
+		 <div class="card-2 swiper-slide">
+			 <div class="on-off">活動進行中</div>
+			<div class="rest-time"><img src="images/clock.png" width="20" height="19" alt=""/>剩餘時間 10天10小時</div>
+            <div class="image-box-2">
+              <img src="images/活動02.jpg" alt="" />
+            </div>
+            <div class="profile-details-2">
+              <div class="name-job">
+                <h3 class="name">David Cardlos</h3>
+				<h3 class="time">現實紅利大放送送送送送送送送送送送送</h3>
+				<h3 class="join-number"><img src="images/man-icon.png"  alt=""/>2000</h3>
+              </div>
+            </div>
+          </div>
+			
+		<div class="card-2 swiper-slide">
+			<div class="on-off">活動進行中</div>
+			<div class="rest-time"><img src="images/clock.png" width="20" height="19" alt=""/>剩餘時間 10天10小時</div>
+            <div class="image-box-2">
+              <img src="images/活動03.jpg" alt="" />
+            </div>
+            <div class="profile-details-2">
+              <div class="name-job">
+                <h3 class="name">David Cardlos</h3>
+				<h3 class="time">現實紅利大放送送送送送送送送送送送送</h3>
+				<h3 class="join-number"><img src="images/man-icon.png"  alt=""/>2000</h3>
+              </div>
+            </div>
+          </div>
+		
+		<div class="card-2 swiper-slide">
+			<div class="on-off">活動進行中</div>
+			<div class="rest-time"><img src="images/clock.png" width="20" height="19" alt=""/>剩餘時間 10天10小時</div>
+            <div class="image-box-2">
+              <img src="images/活動04.jpg" alt="" />
+            </div>
+            <div class="profile-details-2">
+              <div class="name-job">
+                <h3 class="name">David Cardlos</h3>
+				<h3 class="time">現實紅利大放送送送送送送送送送送送送</h3>
+				<h3 class="join-number"><img src="images/man-icon.png"  alt=""/>2000</h3>
+              </div>
+            </div>
+          </div>	
+		
+		<div class="card-2 swiper-slide">
+			<div class="on-off">活動進行中</div>
+			<div class="rest-time"><img src="images/clock.png" width="20" height="19" alt=""/>剩餘時間 10天10小時</div>
+            <div class="image-box-2">
+              <img src="images/活動05.jpg" alt="" />
+            </div>
+            <div class="profile-details-2">
+              <div class="name-job">
+                <h3 class="name">David Cardlos</h3>
+				<h3 class="time">現實紅利大放送送送送送送送送送送送送</h3>
+				<h3 class="join-number"><img src="images/man-icon.png"  alt=""/>2000</h3>
+              </div>
+            </div>
+          </div>		
+		
+		 <div class="card-2 swiper-slide">
+			<div class="on-off">活動進行中</div>
+			<div class="rest-time"><img src="images/clock.png" width="20" height="19" alt=""/>剩餘時間 10天10小時</div>
+            <div class="image-box-2">
+              <img src="images/活動01.jpg" alt="" />
+            </div>
+            <div class="profile-details-2">
+              <div class="name-job">
+                <h3 class="name">David Cardlos</h3>
+				<h3 class="time">現實紅利大放送送送送送送送送送送送送</h3>
+				<h3 class="join-number"><img src="images/man-icon.png"  alt=""/>2000</h3>
+              </div>
+            </div>
+          </div>
+			
+		 <div class="card-2 swiper-slide">
+			 <div class="on-off">活動進行中</div>
+			<div class="rest-time"><img src="images/clock.png" width="20" height="19" alt=""/>剩餘時間 10天10小時</div>
+            <div class="image-box-2">
+              <img src="images/活動02.jpg" alt="" />
+            </div>
+            <div class="profile-details-2">
+              <div class="name-job">
+                <h3 class="name">David Cardlos</h3>
+				<h3 class="time">現實紅利大放送送送送送送送送送送送送</h3>
+				<h3 class="join-number"><img src="images/man-icon.png"  alt=""/>2000</h3>
+              </div>
+            </div>
+          </div>
+			
+		<div class="card-2 swiper-slide">
+			<div class="on-off">活動進行中</div>
+			<div class="rest-time"><img src="images/clock.png" width="20" height="19" alt=""/>剩餘時間 10天10小時</div>
+            <div class="image-box-2">
+              <img src="images/活動03.jpg" alt="" />
+            </div>
+            <div class="profile-details-2">
+              <div class="name-job">
+                <h3 class="name">David Cardlos</h3>
+				<h3 class="time">現實紅利大放送送送送送送送送送送送送</h3>
+				<h3 class="join-number"><img src="images/man-icon.png"  alt=""/>2000</h3>
+              </div>
+            </div>
+          </div>
+		
+		<div class="card-2 swiper-slide">
+			<div class="on-off">活動進行中</div>
+			<div class="rest-time"><img src="images/clock.png" width="20" height="19" alt=""/>剩餘時間 10天10小時</div>
+            <div class="image-box-2">
+              <img src="images/活動04.jpg" alt="" />
+            </div>
+            <div class="profile-details-2">
+              <div class="name-job">
+                <h3 class="name">David Cardlos</h3>
+				<h3 class="time">現實紅利大放送送送送送送送送送送送送</h3>
+				<h3 class="join-number"><img src="images/man-icon.png"  alt=""/>2000</h3>
+              </div>
+            </div>
+          </div>	
+		
+		<div class="card-2 swiper-slide">
+			<div class="on-off">活動進行中</div>
+			<div class="rest-time"><img src="images/clock.png" width="20" height="19" alt=""/>剩餘時間 10天10小時</div>
+            <div class="image-box-2">
+              <img src="images/活動05.jpg" alt="" />
+            </div>
+            <div class="profile-details-2">
+              <div class="name-job">
+                <h3 class="name">David Cardlos</h3>
+				<h3 class="time">現實紅利大放送送送送送送送送送送送送</h3>
+				<h3 class="time">2000 玩家已加入</h3>
+              </div>
+            </div>
+          </div>		
+		
+			
+		<div class=" swiper-slide more-animation-2">
+            <div class="image-box-more">
+              更多活動 >>
+            </div>
+          </div>	
+		
+	
+			
+     </div>
+      <div class="swiper-button-next swiper-navBtn"></div>
+      <div class="swiper-button-prev swiper-navBtn"></div>
+      <div class="swiper-pagination"></div>
+      </div>	
+	</div>
+	   <div class="head-text-3">站長精選活動</div>
+	  <div class="container-3 swiper ">
+		  <div class="slide-container3">
+			  <div class="card-wrapper swiper-wrapper">
+			     <div class="card-3 swiper-slide">  
+                  <div class="image-box-3">
+                    <img src="images/1920x450.jpg" alt="" />
+                  </div>
+                </div>
+				 <div class="card-3 swiper-slide">  
+                  <div class="image-box-3">
+                    <img src="images/1920x450.jpg" alt="" />
+                  </div>
+                </div>
+			  </div>		  
+		    <div class="swiper-button-next swiper-navBtn"></div>
+            <div class="swiper-button-prev swiper-navBtn"></div>
+            <!--<div class="swiper-pagination"></div>-->
+		  </div>
+	  </div>
+ <div class="head-text-4">熱門NFT</div>  
+	  <div class="nft">
+	    <div class="row justify-content-center">
+			<div class="col-1 nft-sell"><img src="images/250x250-1.jpg" alt=""/>
+			    <div class="nft-pic"><img src="images/169148.png" width="60" height="60" alt=""/></div>
+			  <div class="nft-name">暗黑壞壞神</div>
+			  <div class="nft-game-name">暗黑壞壞神之春宵</div>
+			  <div class="nft-price">1000K <img src="images/point-icon.png"  alt=""/></div>
+			</div>
+			<div class="col-1 nft-sell"><img src="images/250x250-2.jpg" alt=""/>
+			    <div class="nft-pic"><img src="images/169148.png" width="60" height="60" alt=""/></div>
+			  <div class="nft-name">暗黑壞壞神</div>
+			  <div class="nft-game-name">暗黑壞壞神之春宵</div>
+			  <div class="nft-price">1000K <img src="images/point-icon.png"  alt=""/></div>
+			</div>
+			<div class="col-1 nft-sell"><img src="images/250x250-3.jpg" alt=""/>
+			    <div class="nft-pic"><img src="images/169148.png" width="60" height="60" alt=""/></div>
+			  <div class="nft-name">暗黑壞壞神</div>
+			  <div class="nft-game-name">暗黑壞壞神之春宵</div>
+			  <div class="nft-price">1000K <img src="images/point-icon.png"  alt=""/></div>
+			</div>
+			<div class="col-1 nft-sell"><img src="images/250x250-4.jpg" alt=""/>
+			    <div class="nft-pic"><img src="images/169148.png" width="60" height="60" alt=""/></div>
+			  <div class="nft-name">暗黑壞壞神</div>
+			  <div class="nft-game-name">暗黑壞壞神之春宵</div>
+			  <div class="nft-price">1000K <img src="images/point-icon.png"  alt=""/></div>
+			</div>
+			<div class="col-1 nft-sell"><img src="images/250x250-5.jpg" alt=""/>
+			    <div class="nft-pic"><img src="images/169148.png" width="60" height="60" alt=""/></div>
+			  <div class="nft-name">暗黑壞壞神</div>
+			  <div class="nft-game-name">暗黑壞壞神之春宵</div>
+			  <div class="nft-price">1000K <img src="images/point-icon.png"  alt=""/></div>
+			</div>
+			<div class="col-1 nft-sell"><img src="images/250x250-6.jpg" alt=""/>
+			    <div class="nft-pic"><img src="images/169148.png" width="60" height="60" alt=""/></div>
+			  <div class="nft-name">暗黑壞壞神</div>
+			  <div class="nft-game-name">暗黑壞壞神之春宵</div>
+			  <div class="nft-price">1000K <img src="images/point-icon.png"  alt=""/></div>
+			</div>
+			<div class="col-1 nft-sell"><img src="images/250x250-7.jpg" alt=""/>
+			    <div class="nft-pic"><img src="images/169148.png" width="60" height="60" alt=""/></div>
+			  <div class="nft-name">暗黑壞壞神</div>
+			  <div class="nft-game-name">暗黑壞壞神之春宵</div>
+			  <div class="nft-price">1000K <img src="images/point-icon.png"  alt=""/></div>
+			</div>
+			<div class="col-1 nft-sell"><img src="images/250x250-8.jpg" alt=""/>
+			    <div class="nft-pic"><img src="images/169148.png" width="60" height="60" alt=""/></div>
+			  <div class="nft-name">暗黑壞壞神</div>
+			  <div class="nft-game-name">暗黑壞壞神之春宵</div>
+			  <div class="nft-price">1000K <img src="images/point-icon.png"  alt=""/></div>
+			</div>
+			<div class="col-1 nft-sell"><img src="images/250x250-9.jpg" alt=""/>
+			    <div class="nft-pic"><img src="images/169148.png" width="60" height="60" alt=""/></div>
+			  <div class="nft-name">暗黑壞壞神</div>
+			  <div class="nft-game-name">暗黑壞壞神之春宵</div>
+			  <div class="nft-price">1000K <img src="images/point-icon.png" alt=""/></div>
+			</div>
+			<div class="col-1 nft-sell"><img src="images/250x250-10.jpg" alt=""/>
+			    <div class="nft-pic"><img src="images/169148.png" width="60" height="60" alt=""/></div>
+			  <div class="nft-name">暗黑壞壞神</div>
+			  <div class="nft-game-name">暗黑壞壞神之春宵</div>
+			  <div class="nft-price">1000K <img src="images/point-icon.png"  alt=""/></div>
+			</div>
+			<div class="col-1 nft-sell"><img src="images/250x250-11.jpg" alt=""/>
+			    <div class="nft-pic"><img src="images/169148.png" width="60" height="60" alt=""/></div>
+			  <div class="nft-name">暗黑壞壞神</div>
+			  <div class="nft-game-name">暗黑壞壞神之春宵</div>
+			  <div class="nft-price">1000K <img src="images/point-icon.png"  alt=""/></div>
+			</div>
+			<div class="col-1 nft-sell"><img src="images/250x250-12.jpg" alt=""/>
+			    <div class="nft-pic"><img src="images/169148.png" width="60" height="60" alt=""/></div>
+			  <div class="nft-name">暗黑壞壞神</div>
+			  <div class="nft-game-name">暗黑壞壞神之春宵</div>
+			  <div class="nft-price">1000K <img src="images/point-icon.png"  alt=""/></div>
+			</div>
+		</div>
+		  <div class="more-btn">
+	    <!--<button class="more">more</button>-->
+	  </div>
+	  </div>
+	
+	  <div class="footer">
+	    <div class="social-media">
+			  <div class="language">語言
+					 <select id="select1">
+					   <option value="1">中文(繁體)</option>
+					 </select>
+				 </div>	
+		     <div class="social-media-icon"><img src="images/discord-white.png" width="25" height="25" alt=""/></div>
+			 <div class="social-media-icon"><img src="images/x-white.png" width="25" height="25" alt=""/></div>
+			 <div class="social-media-icon"><img src="images/facebook-white.png" width="25" height="25" alt=""/></div>
+				
+			 <div class="footer-logo"><img src="images/GFi-Logo.png" width="88" height="35" alt=""/></div>
+	    </div>
+	    <div class="line"></div>
+	    <div class="company-info ">		 
+			  <div class="language-2"><a href="#">服務條款</a></div>
+	      <div class="language-2"><a href="#">隱私權政策</a></div>
+			<div class="copyright">© 2004-2024 本 網 站 內 容 係 屬 遊 戲 新 幹 線 科 技 股 份 有 限 公 司 版 權 所 有</div>
+         		     
+	    </div>
+	  </div>
+	 
+	<script src="js/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init({
+		duration:2000,
+		offset:900,
+	});
+  </script>
+</div>
+</body>
+</html>
