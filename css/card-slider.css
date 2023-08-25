@@ -1,0 +1,399 @@
+/* Google Fonts - Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  max-width: 120%;
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  height: 350px;
+}
+
+.container-2 {
+  width: 100%;
+  max-width: 100%;	
+  margin-top: -120px;
+  margin-bottom: 30px;
+  height: 390px;
+  padding-top: 10px;
+}
+
+.container-3 {
+  width: 90%;
+  justify-content: center;
+  margin-top: 20px;
+ 
+  
+}
+
+.slide-container {
+  height: 350px;
+  width: 100%;
+  padding-top: 20px;
+  margin-left: 5%;
+}
+
+.slide-container2 {
+  height: 350px;
+  width: 100%;
+  margin-left: 5%;
+}
+
+.slide-container3 {
+  
+  width: 100%;
+  overflow: hidden;
+}
+
+.card {
+    border-radius: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 100%;
+	height: 300px;
+	transition-duration: 0.5s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+.card:hover {
+	transform: scale(105%,105%)
+}
+
+.card-2 {
+    border-radius: 10px 10px 0px 0px;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 100%;
+	height: 300px;
+	transition-duration: 0.5s;
+    transition-timing-function: ease;
+    transition-delay: 0s;	
+}
+.card-2:hover {
+	transform: scale(105%,105%)
+}
+
+.card-3 {
+    border-radius: 10px 10px 10px 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100%;
+	padding: 10px;
+	transition-duration: 0.5s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+.card-3:hover {
+	transform: scale(101%,101%)
+}
+.image-box {
+    border-radius: 10px;
+    width:100%;
+    height: 300px;
+    
+}
+.image-box img {
+	border-radius: 10px;
+	width:100%;
+	height: 300px;
+}
+
+.image-box-2 {
+	width:100%;
+	height: 250px;
+}
+
+.image-box-2 img {
+	border-radius: 10px 10px 0px 0px;
+	width: 100%;
+	height: 250px;
+}
+
+.image-box-3 {
+	border-radius: 10px 10px 10px 10px;
+	width:100%;
+	
+}
+
+.image-box-3 img {
+	border-radius: 10px 10px 10px 10px;
+	width: 100%;
+	
+}
+.image-box-more {
+    border-radius: 10px !important;
+    width: 300px;
+    height: 330px;
+    color: hsla(0,0%,100%,1.00);
+    font-size: 18px;
+    padding-left: 50px;
+    font-weight: bold;
+	padding-top: 140px;
+}
+.profile-details {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    padding-top: 15px;
+    justify-content: center;
+    padding-bottom: 10px;
+    background-color: hsla(0,0%,0%,0.70);
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px;
+    width: 100%;
+    z-index: 50px;
+    position: relative;
+    bottom: 50px;
+}
+
+.profile-details-2 {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    padding-top: 15px;
+	padding-bottom: 0px;
+    padding-left: 10px;
+    border-radius: 0 0 10px 10px;
+    position: relative;
+    width: 100%;
+    background-image: -webkit-linear-gradient(270deg,rgba(65,65,65,1.00) 0%,rgba(43,43,43,1.00) 99.49%);
+    background-image: -moz-linear-gradient(270deg,rgba(65,65,65,1.00) 0%,rgba(43,43,43,1.00) 99.49%);
+    background-image: -o-linear-gradient(270deg,rgba(65,65,65,1.00) 0%,rgba(43,43,43,1.00) 99.49%);
+    background-image: linear-gradient(180deg,rgba(65,65,65,1.00) 0%,rgba(43,43,43,1.00) 99.49%);
+}
+
+.game-name-info {
+    font-size: 16px;
+    font-weight: 500;
+    color: hsla(0,0%,100%,1.00);
+    text-shadow: 1px 1px #000000;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	clear: left;
+}
+
+.time{
+	font-size: 14px;
+    
+    color: hsla(0,0%,100%,1.00);
+}
+
+.swiper-navBtn {
+    color: hsla(0,0%,100%,1.00);
+    height: 40px;
+    width: 40px;
+    transform: translateY(-15px) ;
+    background: hsla(0,0%,14%,0.70);
+    border-radius: 10px;
+}
+.swiper-navBtn-1 {
+    color: hsla(0,0%,100%,1.00);
+    height: 40px;
+    width: 40px;
+    transform: translateY(-15px) ;
+    background: hsla(0,0%,14%,0.70);
+    border-radius: 10px;
+}
+.swiper-navBtn-2 {
+    color: hsla(0,0%,100%,1.00);
+    height: 40px;
+    width: 40px;
+    transform: translateY(-15px) ;
+    background: hsla(0,0%,14%,0.70);
+    border-radius: 10px;
+}
+.swiper-navBtn::before,
+.swiper-navBtn::after {
+  font-size: 24px;
+}
+
+.swiper-pagination-bullet {
+  background-color:#FFFFFF;
+}
+
+@media screen and (max-width: 768px) {
+  .swiper-navBtn {
+    display: none;
+  }
+}
+
+@keyframes light-up {
+		from{box-shadow: 0 0 3px  #FFD75E;}
+		to{box-shadow:0 0 5px 3px #FFD75E;}
+		} 
+		
+	.on-off {
+    z-index: 60;
+    width: 72px;
+    height: 22px;
+    background: #ffc000;
+    font-size: 5px;
+    color: hsla(0,0%,0%,1.00);
+    padding-top: 2px;
+		
+    text-align: center;
+    position: fixed;
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-top: 5px;
+    font-weight: bold;
+    box-shadow: 0 0 5px 3px #FFD75E;
+    animation-name: light-up;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 1s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    border: solid thin hsla(50,100%,82%,1.00);
+    -webkit-box-shadow: 0 0 5px 3px #FFD75E;
+ }
+ 
+
+.rest-time {
+	z-index: 60;
+    width: 142px;
+    height: 22px;
+    background: hsla(0,0%,100%,0.70);
+    font-size: 5px;
+    color: black;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right: 6px;
+    position: fixed;
+    border-radius: 5px;
+    right: 5px;
+    margin-top: 5px;
+    text-align: right;
+}
+.active-text {
+	font-size: 5px;
+    color: hsla(0,0%,100%,1.00);
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right: 5px;
+    padding-left: 5px;
+	z-index: 70px;
+}
+
+.nft-sell {
+    max-width: 270px;
+    margin-right: 10px;
+	margin-left: 10px;
+    margin-top: 56px;
+	background: hsla(0,0%,18%,1.00);
+	border-radius: 10px;
+	padding: 10px;
+	transition-duration: 0.5s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+	height: 330px;
+}
+.nft-sell:hover{
+	transform: scale(105%,105%)
+}
+.nft-sell img{
+    border-radius: 6px;
+}
+.nft {
+   width: 95%;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 20px;
+}
+
+.more {
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 5px;
+    background-color: hsla(0,0%,32%,1.00);
+    position: relative;
+    top: 20px;
+	margin-bottom: 50px;
+    color: hsla(0,0%,100%,1.00);
+}
+
+.more-btn {
+   width: 50px;
+   height: 100px;
+   margin-left: auto;
+   margin-right: auto;
+    
+}
+
+.nft-name {
+    width: 120px;
+    height: 35px;
+    color: hsla(0,0%,100%,1.00);
+    padding-top: 15px;
+    font-size: 16px;
+    margin-left: 65px;
+    font-weight: bold;	
+    
+}
+.nft-game-name {
+    width: 100px;
+    height: 10px;
+    color: hsla(0,0%,100%,1.00);
+    font-size: 8px;
+    margin-left: 66px ;
+	margin-top: 5px;
+}
+.nft-price {
+    width: 70px;
+    height: 15px;
+    color: hsla(0,0%,100%,1.00);
+    font-size: 8px;
+	margin-top: -10px;
+	float: right;
+	text-align: end;
+}
+.nft-price img{
+	width: 15px;
+	height: 15px;
+	margin-top:-2px;
+	margin-left: 3px;
+}
+.name {
+	font-size: 17px;
+    font-weight: 500;
+    color: hsla(0,0%,100%,1.00);
+    text-shadow: 1px 1px #000000;
+}
+.more-animation{
+	transition-property: background;
+	transition-duration: 1s;
+	transition-timing-function: ease-in;
+	border-radius: 10px;
+	height: 304px;
+	
+}
+
+.more-animation:hover{
+	background:hsla(0,0%,0%,0.50); 
+}
+.more-animation-2{
+	transition-property: background;
+	transition-duration: 1s;
+	transition-timing-function: ease-in;
+	border-radius: 10px;
+	height: 344px;
+	
+}
+.more-animation-2:hover{
+	background:hsla(0,0%,0%,0.50); 
+}
+.join-number{
+	font-size: 14px;
+    color: hsla(0,0%,100%,1.00);
+	float: right;
+}
+.name-job {
+	width: 95%;
+}
